@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+    <TextView
+
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="PANGKAS JAYA"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFBC00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" >
+
+         </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="SENIN"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="08.00 - 15.00"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/black"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SERVICE"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/pangkas1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:onClick="pangkas1"
+        android:text="potong rapi dewasa"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="pangkas2"
+        android:text="potong rapi pelajar"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pangkas1"
+        tools:ignore="OnClick" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="87dp"
+        app:cardBackgroundColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

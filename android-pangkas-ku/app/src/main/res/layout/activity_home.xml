@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/profil1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFBC00">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="360dp"
+            android:background="@drawable/ic_baseline_account_box_24"
+            android:onClick="profil1"
+            tools:ignore="OnClick" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/bacround">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="115dp">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="beranda"
+            android:src="@drawable/kotak" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
